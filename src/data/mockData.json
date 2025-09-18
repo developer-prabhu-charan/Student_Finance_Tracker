@@ -1,0 +1,281 @@
+{
+  "user": {
+    "id": "1",
+    "name": "Alex Johnson",
+    "email": "alex.johnson@university.edu",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
+    "studentId": "SID123456",
+    "university": "Tech University",
+    "graduationYear": 2025,
+    "major": "Computer Science",
+    "level": 7,
+    "xp": 2450,
+    "achievements": ["Budget Master", "Savings Champion", "Goal Achiever"]
+  },
+  "accounts": [
+    {
+      "id": "acc1",
+      "name": "Student Checking",
+      "type": "checking",
+      "balance": 2450.75,
+      "bankName": "University Credit Union",
+      "lastUpdated": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "acc2", 
+      "name": "High-Yield Savings",
+      "type": "savings",
+      "balance": 8750.20,
+      "bankName": "Online Bank",
+      "lastUpdated": "2024-01-15T09:15:00Z"
+    },
+    {
+      "id": "acc3",
+      "name": "Student Loan",
+      "type": "loan",
+      "balance": -25000.00,
+      "bankName": "Federal Student Aid",
+      "lastUpdated": "2024-01-14T16:45:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx1",
+      "accountId": "acc1",
+      "amount": -45.67,
+      "description": "Campus Bookstore",
+      "category": "Education",
+      "date": "2024-01-15T14:20:00Z",
+      "merchant": "University Bookstore",
+      "status": "completed"
+    },
+    {
+      "id": "tx2",
+      "accountId": "acc1",
+      "amount": -12.50,
+      "description": "Coffee Shop",
+      "category": "Food & Dining",
+      "date": "2024-01-15T08:30:00Z",
+      "merchant": "Campus Cafe",
+      "status": "completed"
+    },
+    {
+      "id": "tx3",
+      "accountId": "acc1",
+      "amount": 500.00,
+      "description": "Part-time Job Deposit",
+      "category": "Income",
+      "date": "2024-01-14T15:00:00Z",
+      "merchant": "Tech Startup Inc",
+      "status": "completed"
+    },
+    {
+      "id": "tx4",
+      "accountId": "acc1",
+      "amount": -85.00,
+      "description": "Grocery Shopping",
+      "category": "Groceries",
+      "date": "2024-01-13T16:45:00Z",
+      "merchant": "Local Supermarket",
+      "status": "completed"
+    },
+    {
+      "id": "tx5",
+      "accountId": "acc2",
+      "amount": 200.00,
+      "description": "Monthly Savings Transfer",
+      "category": "Transfer",
+      "date": "2024-01-13T12:00:00Z",
+      "merchant": "Automatic Transfer",
+      "status": "completed"
+    },
+    {
+      "id": "tx6",
+      "accountId": "acc1",
+      "amount": -35.99,
+      "description": "Netflix Subscription",
+      "category": "Entertainment",
+      "date": "2024-01-12T09:15:00Z",
+      "merchant": "Netflix",
+      "status": "completed"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "budget1",
+      "name": "Food & Dining",
+      "category": "Food & Dining", 
+      "limit": 300.00,
+      "spent": 165.50,
+      "period": "monthly",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "color": "#FF6B6B"
+    },
+    {
+      "id": "budget2",
+      "name": "Entertainment",
+      "category": "Entertainment",
+      "limit": 100.00,
+      "spent": 71.98,
+      "period": "monthly", 
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "color": "#4ECDC4"
+    },
+    {
+      "id": "budget3",
+      "name": "Education",
+      "category": "Education",
+      "limit": 200.00,
+      "spent": 145.67,
+      "period": "monthly",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "color": "#45B7D1"
+    },
+    {
+      "id": "budget4",
+      "name": "Transportation",
+      "category": "Transportation",
+      "limit": 80.00,
+      "spent": 45.00,
+      "period": "monthly",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-31",
+      "color": "#F7DC6F"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal1",
+      "name": "Emergency Fund",
+      "description": "Build 3-month emergency fund",
+      "targetAmount": 5000.00,
+      "currentAmount": 2450.75,
+      "targetDate": "2024-06-01",
+      "category": "Emergency",
+      "priority": "high",
+      "isCompleted": false
+    },
+    {
+      "id": "goal2", 
+      "name": "Spring Break Trip",
+      "description": "Vacation fund for spring break",
+      "targetAmount": 1200.00,
+      "currentAmount": 650.00,
+      "targetDate": "2024-03-15",
+      "category": "Travel",
+      "priority": "medium",
+      "isCompleted": false
+    },
+    {
+      "id": "goal3",
+      "name": "New Laptop",
+      "description": "MacBook Pro for development",
+      "targetAmount": 2500.00,
+      "currentAmount": 1200.00,
+      "targetDate": "2024-05-01",
+      "category": "Technology",
+      "priority": "high",
+      "isCompleted": false
+    },
+    {
+      "id": "goal4",
+      "name": "Course Certification",
+      "description": "AWS Cloud Practitioner Certification",
+      "targetAmount": 300.00,
+      "currentAmount": 300.00,
+      "targetDate": "2024-02-01",
+      "category": "Education",
+      "priority": "high",
+      "isCompleted": true
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert1",
+      "type": "budget_warning",
+      "title": "Budget Alert: Food & Dining",
+      "message": "You've spent 55% of your monthly food budget",
+      "severity": "warning",
+      "timestamp": "2024-01-15T14:30:00Z",
+      "isRead": false,
+      "data": {
+        "budgetId": "budget1",
+        "percentage": 55
+      }
+    },
+    {
+      "id": "alert2",
+      "type": "goal_milestone",
+      "title": "Goal Milestone Reached!",
+      "message": "You're 50% towards your Spring Break Trip goal!",
+      "severity": "success",
+      "timestamp": "2024-01-14T18:00:00Z",
+      "isRead": false,
+      "data": {
+        "goalId": "goal2",
+        "percentage": 54
+      }
+    },
+    {
+      "id": "alert3",
+      "type": "unusual_spending",
+      "title": "Unusual Spending Detected",
+      "message": "Higher than usual spending on Education category",
+      "severity": "info", 
+      "timestamp": "2024-01-13T11:30:00Z",
+      "isRead": true,
+      "data": {
+        "category": "Education",
+        "amount": 145.67
+      }
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight1",
+      "type": "spending_trend",
+      "title": "Your coffee spending is up 25%",
+  "description": "Consider brewing at home to save ₹40/month",
+      "category": "Food & Dining",
+      "impact": "medium",
+      "potentialSavings": 40.00
+    },
+    {
+      "id": "insight2",
+      "type": "goal_prediction",
+      "title": "On track for Emergency Fund",
+      "description": "At current savings rate, you'll reach your goal 2 weeks early",
+      "category": "Savings",
+      "impact": "positive", 
+      "goalId": "goal1"
+    },
+    {
+      "id": "insight3",
+      "type": "budget_optimization",
+      "title": "Redistribute unused budget",
+  "description": "You have ₹35 left in Transportation. Consider moving to Food budget.",
+      "category": "Budgets",
+      "impact": "low",
+      "suggestion": "budget_reallocation"
+    }
+  ],
+  "monthlyStats": {
+    "2024-01": {
+      "income": 1200.00,
+      "expenses": 785.64,
+      "savings": 414.36,
+      "categories": {
+        "Food & Dining": 165.50,
+        "Entertainment": 71.98,
+        "Education": 145.67,
+        "Transportation": 45.00,
+        "Groceries": 85.00,
+        "Subscriptions": 35.99,
+        "Other": 236.50
+      }
+    }
+  }
+}
